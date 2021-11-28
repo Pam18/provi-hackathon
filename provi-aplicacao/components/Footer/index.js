@@ -43,15 +43,20 @@ export default function Footer() {
             <div className="empresas-parceiras">
                 <h4>Empresas parceiras:</h4>
 
-                <div className="empresas-parceiras-div">
-                    <Image src={ifood} alt="logo do ifood em vermelho"></Image>
-                    <Image src={vtex} alt="logo da vtex em rosa"></Image>
-                    <Image src={xpinc} alt="logo da xpinc em preto e cinza"></Image>
-                    <Image src={arco} alt="logo da arco"></Image>
-                    <Image src={provi} alt="logo da provi"></Image>
-                    <Image src={saoPaulo} alt="logo da cidade de São Paulo"></Image>
+                <div className="empresas">
+                    <div>
+                        <Image src={ifood} alt="logo do ifood em vermelho" height={80} />
+                        <Image src={vtex} alt="logo da vtex em rosa" height={80} />
+                        <Image src={xpinc} alt="logo da xpinc em preto e cinza" height={80} />
+                    </div>
+
+                    <div>
+                        <Image src={arco} alt="logo da arco" height={80} />
+                        <Image src={provi} alt="logo da provi" height={80} />
+                        <Image src={saoPaulo} alt="logo da cidade de São Paulo" height={80} />
+                    </div>
                 </div>
-            </div> 
+            </div>
         </div>
     )
 }

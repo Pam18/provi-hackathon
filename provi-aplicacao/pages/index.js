@@ -7,10 +7,6 @@ import bandeiras from "../public/assets/bandeiras.svg";
 import cadastro from "../public/assets/cadastro.svg";
 import interrogacao from "../public/assets/interrogacao.svg";
 import listaNumero from "../public/assets/lista-numero.svg";
-import manchaRoxaLateral from "../public/assets/mancha-roxa-lateral.svg";
-import manchaRoxaSuperior from "../public/assets/mancha-roxa-superior.svg";
-import manchaVerdeLateral from "../public/assets/mancha-verde-lateral.svg";
-import manchaVerdeSuperior from "../public/assets/mancha-verde-superior.svg";
 import mural from "../public/assets/mural.svg";
 import pessoaTrans from "../public/assets/pessoa-trans.svg";
 import play from "../public/assets/play.svg";
@@ -26,26 +22,12 @@ import video3 from "../public/assets/video3.svg";
 import video4 from "../public/assets/video4.svg";
 import styles from "../styles/Home.module.css";
 
+import Link from "next/link";
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <span className={styles.imagemRoxaSuperior} >
-        <Image src={manchaRoxaSuperior} alt="uma macha roxa, que faz parte do design" />
-      </span>
-
-      <span className={styles.imagemVerdeSuperior}>
-        <Image src={manchaVerdeSuperior} alt="uma macha verde, que faz parte do design" />
-      </span>
-
-      <span className={styles.imagemRoxaLateral} >
-        <Image src={manchaRoxaLateral} alt="uma macha roxa, que faz parte do design" />
-      </span>
-
-      <span className={styles.imagemVerdeLateral}>
-        <Image src={manchaVerdeLateral} alt="uma macha verde, que faz parte do design" />
-      </span>
-
       <Header />
 
       <CallAction
@@ -68,14 +50,16 @@ export default function Home() {
           <span>Como conseguir</span>
           <h2>Minha retificação</h2>
 
-          <button className={styles.listaNumero}>
-            <a href="#">
-              <div className={styles.listaNumero}>
-                <Image src={listaNumero} alt="ícone de uma lista enumerada" />
-              </div>
-              <span>Passo a passo</span>
-            </a>
-          </button>
+          <Link href="/guia">
+            <button className={styles.listaNumero}>
+              <a>
+                <div className={styles.listaNumero}>
+                  <Image src={listaNumero} alt="ícone de uma lista enumerada" />
+                </div>
+                <span>Passo a passo</span>
+              </a>
+            </button>
+          </Link>
 
           <button className={styles.tempo}>
             <a href="#">
@@ -221,13 +205,13 @@ export default function Home() {
           </div>
 
           <div className={styles.textoVideos}>
-              <span className={styles.video1}>1º Jogos LGBTQIAP+</span>
+            <span className={styles.video1}>1º Jogos LGBTQIAP+</span>
 
-              <span className={styles.video2}>Orgulhe-se: financiamento <br/> busca segurança alimentar <br/> para a população LGBTQIA+</span>
+            <span className={styles.video2}>Orgulhe-se: financiamento <br /> busca segurança alimentar <br /> para a população LGBTQIA+</span>
 
-              <span className={styles.video3}>Como retificar meu nome <br/> mudo minha vida.</span>
+            <span className={styles.video3}>Como retificar meu nome <br /> mudo minha vida.</span>
 
-              <span className={styles.video4}>Viva sua verdadeira identidade</span>
+            <span className={styles.video4}>Viva sua verdadeira identidade</span>
 
           </div>
 

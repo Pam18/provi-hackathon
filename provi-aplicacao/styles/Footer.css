@@ -3,11 +3,8 @@
     justify-content: space-between;
     align-items: center;
 
-    gap: 80px;
-
-    min-width: 100%;
-
-
+    max-width: 100vw;
+    height: 280px;
 
     padding: 35px 276px 10px 280px; 
 
@@ -15,12 +12,14 @@
 }
 
 .logo {
-    all: unset;
-
     display: flex;
     align-items: center;
 
-    margin-bottom: 155px;
+    margin-bottom: 50px;
+}
+
+.logo h1 {
+    margin-left: 20px;
 }
 
 .empresa-contato {
@@ -28,13 +27,13 @@
     flex-direction: column;
     justify-content: space-between;
 
-    width: 1000px;
+    width: 900px;
 }
 
 .contato {
     display: flex;
-
-    gap: 100px;
+   
+    gap: 50px;
 }
 
 .sao-paulo h4, .rio-de-janeiro h4, .empresas-parceiras h4 {
@@ -57,17 +56,19 @@
     opacity: 0.5;
 }
 
+.empresas-parceiras h4  {
+    margin-bottom: 50px;
+}
+
 .empresas-parceiras {
     display: flex;
     flex-direction: column;
-
-    margin-top: 30px;
 }
 
-.empresas-parceiras-div {
+.empresas div {
     display: flex;
-
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
     gap: 20px;
 }
