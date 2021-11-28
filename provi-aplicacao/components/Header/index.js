@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className="logo-titulo">
-                <Image className="logo-imagem" src={logo} alt="Símbolo da transsexualidade, na cor preto. Que descrito, se trata de um círculo anexado a uma flecha apontada para o alto e para a direita, com outra flecha, que possui um corte horizontal, apontada para o alto e para a esquerda. E abaixo do círculo, está anexada uma cruz." />
+                <Image className="logo-imagem" src={logo} alt="Símbolo da transsexualidade, na cor preto. Que descrito, se trata de um círculo anexado a uma flecha apontada para o alto e para a direita, com outra flecha, que possui um corte horizontal, apontada para o alto e para a esquerda. E abaixo do círculo, está anexada uma cruz" />
 
                 <h1>TransForma</h1>
             </div>
