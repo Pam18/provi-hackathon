@@ -1,30 +1,29 @@
-import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../components/Header';
 import CallAction from '../components/CallAction';
-
-import styles from '../styles/Home.module.css';
-
-import manchaRoxaSuperior from "../public/assets/mancha-roxa-superior.svg";
-import manchaVerdeSuperior from "../public/assets/mancha-verde-superior.svg";
-import manchaRoxaLateral from "../public/assets/mancha-roxa-lateral.svg";
-import manchaVerdeLateral from "../public/assets/mancha-verde-lateral.svg";
-
-import bandeiras from "../public/assets/bandeiras.svg";
-import listaNumero from "../public/assets/lista-numero.svg";
-import tempo from "../public/assets/tempo.svg";
-import interrogacao from "../public/assets/interrogacao.svg";
-
-import mural from "../public/assets/mural.svg";
-import rede from "../public/assets/rede.svg";
-import cadastro from "../public/assets/cadastro.svg";
-import seta from "../public/assets/seta.svg";
-
+import Header from '../components/Header';
 import bandeiraTrans from "../public/assets/bandeira-trans.svg";
+import bandeiras from "../public/assets/bandeiras.svg";
+import cadastro from "../public/assets/cadastro.svg";
+import interrogacao from "../public/assets/interrogacao.svg";
+import listaNumero from "../public/assets/lista-numero.svg";
+import manchaRoxaLateral from "../public/assets/mancha-roxa-lateral.svg";
+import manchaRoxaSuperior from "../public/assets/mancha-roxa-superior.svg";
+import manchaVerdeLateral from "../public/assets/mancha-verde-lateral.svg";
+import manchaVerdeSuperior from "../public/assets/mancha-verde-superior.svg";
+import mural from "../public/assets/mural.svg";
 import pessoaTrans from "../public/assets/pessoa-trans.svg";
-import aspas from "../public/assets/aspas.svg";
+import rede from "../public/assets/rede.svg";
 import setaEsquerda from "../public/assets/seta-cinza-esquerda.svg";
 import setaDireita from "../public/assets/seta-preta-direita.svg";
+import seta from "../public/assets/seta.svg";
+import tempo from "../public/assets/tempo.svg";
+import styles from "../styles/Home.module.css";
+import video1 from "../public/assets/video1.svg";
+import video2 from "../public/assets/video2.svg";
+import video3 from "../public/assets/video3.svg";
+import video4 from "../public/assets/video4.svg";
+import record from "../public/assets/record.svg";
+import play from "../public/assets/play.svg";
 
 
 export default function Home() {
@@ -176,19 +175,70 @@ export default function Home() {
 
                 <div className={styles.passarDepo}>
                   <a href="#">
-                    <Image src={setaEsquerda} alt="imagem de uma mão levantando a bandeira trans, nas cores azul, rosa e branco" />
+                    <Image src={setaEsquerda} alt="imagem de uma seta para a esquerda" />
                   </a>
 
                   <a href="#">
-                    <Image src={setaDireita} alt="imagem de uma mão levantando a bandeira trans, nas cores azul, rosa e branco" />
+                    <Image src={setaDireita} alt="imagem de uma seta para a direita" />
                   </a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.videos}>
+        <span>Veja aqui nossos</span>
+        <h2>Vídeos</h2>
+
+        <div className={styles.imagemVideos}>
+          <div className={styles.videosImagens}>
+            <Image src={video1} alt="imagem em rosa de um vídeo" width={200} />
+
+            <span className={styles.imagemRecord1}>
+              <Image src={record} alt="ícone de um vídeo em stop" />
+            </span>
+
+            <Image src={video2} alt="imagem de um grupo de pessoas em um vídeo" width={200} />
+
+            <span className={styles.imagemRecord2}>
+              <Image src={record} alt="ícone de um vídeo em stop" />
+            </span>
+
+            <Image src={video3} alt="iamgem de um homem, com uma camisa preta e cabelos enrolados" width={200} />
+
+            <span className={styles.imagemPlay1}>
+              <Image src={play} alt="ícone de um vídeo para dar play" />
+            </span>
+
+            <Image src={video4} alt="imagem de três pessoas sorrindo" width={200} />
+
+            <span className={styles.imagemRecord3}>
+              <Image src={record} alt="ícone de um vídeo em stop" />
+            </span>
+          </div>
+
+          <div className={styles.textoVideos}>
+              <span className={styles.video1}>1º Jogos LGBTQIAP+</span>
+
+              <span className={styles.video2}>Orgulhe-se: financiamento <br/> busca segurança alimentar <br/> para a população LGBTQIA+</span>
+
+              <span className={styles.video3}>Como retificar meu nome <br/> mudo minha vida.</span>
+
+              <span className={styles.video4}>Viva sua verdadeira identidade</span>
+
+          </div>
+
+          <div className={styles.datas}>
+            <span className={styles.data1}>Publicado em novembro de 2021.</span>
+            <span className={styles.data2}>Publicado em agosto de 2021.</span>
+            <span className={styles.data3}>Publicado em novembro de 2018.</span>
+            <span>Publicado em março de 2021.</span>
+          </div>
 
         </div>
       </div>
-    </div>
+    </div >
   )
 }
