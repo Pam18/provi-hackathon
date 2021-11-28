@@ -7,8 +7,8 @@
 body {
   min-height: 100vh;
   padding-top: 30px;
+  padding-right: 120px;
 
-  background-image: linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.95)), url("../public/assets/background-image.jpg");
+  background-image: linear-gradient(#fffffff2, #fffffff2), url("../public/assets/background-image.jpg");
   background-size: cover;
 }
-
