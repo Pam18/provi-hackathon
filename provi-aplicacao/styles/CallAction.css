@@ -6,9 +6,8 @@
     display: flex;
     align-items: flex-start;
 
-    gap: 50px;
-
     margin-top: 81px;
+    margin-right: 170px;
 }
 
 .informacoes {
@@ -18,6 +17,7 @@
     max-width: 480px;
 
     margin-left: 200px;
+    margin-right: 170px;
 }
 
 .informacoes span {
@@ -102,7 +102,7 @@ a:hover {
 }
 
 .imagem-roxa-lateral {
-    width: 400px;
+    width: 350px;
 
     position: absolute;
     top: 1200px;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .imagem-verde-lateral {
-    width: 300px;
+    width: 250px;
 
     position: absolute;
     top: 1300px;

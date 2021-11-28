@@ -5,10 +5,12 @@
     justify-content: space-between;
 
     width: 100%;
+
+    margin-right: 20px;
 }
 
 .imagem-roxa-superior, .imagem-verde-superior {
-    width: 800px;
+    width: 700px;
 
     position: absolute;
     top: 0;
@@ -17,14 +19,14 @@
     z-index: -2;
 }
 
-.logo-titulo {
+.logo-titulo a {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     margin-left: 200px;
 
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .logo-imagem {

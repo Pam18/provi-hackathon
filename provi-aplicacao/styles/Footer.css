@@ -20,6 +20,13 @@
 
 .logo h1 {
     margin-left: 20px;
+
+    color: #202020;
+
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
 }
 
 .empresa-contato {
