@@ -1,0 +1,73 @@
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 80px;
+
+    min-width: 100%;
+
+
+
+    padding: 35px 276px 10px 280px; 
+
+    background-color: #FFFFFF;
+}
+
+.logo {
+    all: unset;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 155px;
+}
+
+.empresa-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 1000px;
+}
+
+.contato {
+    display: flex;
+
+    gap: 100px;
+}
+
+.sao-paulo h4, .rio-de-janeiro h4, .empresas-parceiras h4 {
+    color: #202020;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.sao-paulo span, .rio-de-janeiro span {
+    color: #202020;
+
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+
+    opacity: 0.5;
+}
+
+.empresas-parceiras {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.empresas-parceiras-div {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
