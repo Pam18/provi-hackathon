@@ -7,6 +7,16 @@
     width: 100%;
 }
 
+.imagem-roxa-superior, .imagem-verde-superior {
+    width: 800px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    z-index: -2;
+}
+
 .logo-titulo {
     display: flex;
     justify-content: space-between;
