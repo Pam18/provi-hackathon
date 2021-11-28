@@ -188,9 +188,11 @@
 }
 
 .depo {
-    width: 700px;
+    width: 820px;
 
     margin-top: 150px;
+
+    margin-right: 100px;
 }
 
 .depo h2 {

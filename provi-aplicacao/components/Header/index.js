@@ -15,17 +15,19 @@ export default function Header() {
             </span>
 
             <div className="logo-titulo">
-                <Image className="logo-imagem" src={logo} alt="Símbolo da transsexualidade, na cor preto. Que descrito, se trata de um círculo anexado a uma flecha apontada para o alto e para a direita, com outra flecha, que possui um corte horizontal, apontada para o alto e para a esquerda. E abaixo do círculo, está anexada uma cruz" />
+                <a href="/">
+                    <Image className="logo-imagem" src={logo} alt="Símbolo da transsexualidade, na cor preto. Que descrito, se trata de um círculo anexado a uma flecha apontada para o alto e para a direita, com outra flecha, que possui um corte horizontal, apontada para o alto e para a esquerda. E abaixo do círculo, está anexada uma cruz" />
 
-                <h1>TransForma</h1>
+                    <h1>Transceder</h1>
+                </a>
             </div>
 
             <div className="menu">
-                <a href="#sobre">Sobre</a>
-                <a href="#duvidas">Dúvidas</a>
-                <a href="#depoimentos">Depoimentos</a>
-                <a href="#parcerias">Parcerias</a>
-                <a href="#contato">Contato</a>
+                <a href="/#sobre">Sobre</a>
+                <a href="/#duvidas">Dúvidas</a>
+                <a href="/#depoimentos">Depoimentos</a>
+                <a href="/#parcerias">Parcerias</a>
+                <a href="/#contato">Contato</a>
             </div>
         </div>
     )
