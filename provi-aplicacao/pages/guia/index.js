@@ -95,7 +95,7 @@ export default function Guia() {
                 subtitulo={false}
                 titulo="Guia de retificação do nome e/ou gênero"
                 botao={false}
-                texto="Este passo a passo foi elaborado por nós, daTransForma, para te ajudar a conseguir os documentos necessários para a Retificação de PRENOME e GÊNERO nos seus documentos."
+                texto="Este passo a passo foi elaborado por nós, da Transceder, para te ajudar a conseguir os documentos necessários para a Retificação de PRENOME e GÊNERO nos seus documentos."
                 imagem={false}
             />
 
