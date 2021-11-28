@@ -3,7 +3,7 @@ import simboloTrans from "../../public/assets/simboloTrans.svg"
 
 export default function CallAction(props) {
     return (
-        <div className="info-imagem">
+        <div id="sobre" className="info-imagem">
             <div className="informacoes">
                 <span>{props.subtitulo ? props.subtitulo : ""}</span>
 
