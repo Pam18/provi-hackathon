@@ -11,11 +11,11 @@ export default function Header() {
             </div>
 
             <div className="menu">
-                <a href="#">Sobre</a>
-                <a href="#">Dúvidas</a>
-                <a href="#">Depoimentos</a>
-                <a href="#">Parcerias</a>
-                <a href="#">Contato</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#duvidas">Dúvidas</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#parcerias">Parcerias</a>
+                <a href="#contato">Contato</a>
             </div>
         </div>
     )
