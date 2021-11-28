@@ -1,0 +1,20 @@
+{
+  "name": "provi-hackathon",
+  "version": "1.0.0",
+  "description": "Repositório criado para hospedar o projeto mínimo viável (MVP), desenvolvido no hackathon da Provi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pam18/provi-hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pam18/provi-hackathon/issues"
+  },
+  "homepage": "https://github.com/Pam18/provi-hackathon#readme"
+}
