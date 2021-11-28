@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import CallAction from '../components/CallAction';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import bandeiraTrans from "../public/assets/bandeira-trans.svg";
 import bandeiras from "../public/assets/bandeiras.svg";
@@ -12,18 +13,18 @@ import manchaVerdeLateral from "../public/assets/mancha-verde-lateral.svg";
 import manchaVerdeSuperior from "../public/assets/mancha-verde-superior.svg";
 import mural from "../public/assets/mural.svg";
 import pessoaTrans from "../public/assets/pessoa-trans.svg";
+import play from "../public/assets/play.svg";
+import record from "../public/assets/record.svg";
 import rede from "../public/assets/rede.svg";
 import setaEsquerda from "../public/assets/seta-cinza-esquerda.svg";
 import setaDireita from "../public/assets/seta-preta-direita.svg";
 import seta from "../public/assets/seta.svg";
 import tempo from "../public/assets/tempo.svg";
-import styles from "../styles/Home.module.css";
 import video1 from "../public/assets/video1.svg";
 import video2 from "../public/assets/video2.svg";
 import video3 from "../public/assets/video3.svg";
 import video4 from "../public/assets/video4.svg";
-import record from "../public/assets/record.svg";
-import play from "../public/assets/play.svg";
+import styles from "../styles/Home.module.css";
 
 
 export default function Home() {
@@ -96,7 +97,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.servicos}>
+      <div id="parcerias" className={styles.servicos}>
         <span>Conheça nossos outros</span>
         <h2>Serviços</h2>
 
@@ -236,9 +237,10 @@ export default function Home() {
             <span className={styles.data3}>Publicado em novembro de 2018.</span>
             <span>Publicado em março de 2021.</span>
           </div>
-
         </div>
       </div>
+
+      <Footer />
     </div >
   )
 }

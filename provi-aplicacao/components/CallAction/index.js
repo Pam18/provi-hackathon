@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import simboloTrans from "../../public/assets/simboloTrans.svg"
+import Image from 'next/image';
+import simboloTrans from "../../public/assets/simboloTrans.svg";
 
 export default function CallAction(props) {
     return (

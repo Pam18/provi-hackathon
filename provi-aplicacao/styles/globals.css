@@ -7,7 +7,7 @@
 body {
   min-height: 100vh;
   padding-top: 30px;
-  padding-right: 120px;
+
 
   background-image: linear-gradient(#fffffff2, #fffffff2), url("../public/assets/background-image.jpg");
   background-size: cover;
