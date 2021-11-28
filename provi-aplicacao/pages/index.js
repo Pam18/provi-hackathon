@@ -1,19 +1,24 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 import Header from '../components/Header';
 import CallAction from '../components/CallAction';
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 
-import manchaRoxaSuperior from "../public/assets/mancha-roxa-superior.svg"
-import manchaVerdeSuperior from "../public/assets/mancha-verde-superior.svg"
-import manchaRoxaLateral from "../public/assets/mancha-roxa-lateral.svg"
-import manchaVerdeLateral from "../public/assets/mancha-verde-lateral.svg"
+import manchaRoxaSuperior from "../public/assets/mancha-roxa-superior.svg";
+import manchaVerdeSuperior from "../public/assets/mancha-verde-superior.svg";
+import manchaRoxaLateral from "../public/assets/mancha-roxa-lateral.svg";
+import manchaVerdeLateral from "../public/assets/mancha-verde-lateral.svg";
 
-import bandeiras from "../public/assets/bandeiras.svg"
-import listaNumero from "../public/assets/lista-numero.svg"
-import tempo from "../public/assets/tempo.svg"
-import interrogacao from "../public/assets/interrogacao.svg"
+import bandeiras from "../public/assets/bandeiras.svg";
+import listaNumero from "../public/assets/lista-numero.svg";
+import tempo from "../public/assets/tempo.svg";
+import interrogacao from "../public/assets/interrogacao.svg";
+
+import mural from "../public/assets/mural.svg";
+import rede from "../public/assets/rede.svg";
+import cadastro from "../public/assets/cadastro.svg";
+import seta from "../public/assets/seta.svg";
 
 
 export default function Home() {
@@ -39,7 +44,7 @@ export default function Home() {
 
       <CallAction
         subtitulo="O seu direito"
-        titulo="Ao nome proprio"
+        titulo="Ao nome próprio"
         botao={true}
         imagem={true}
       >
@@ -83,6 +88,46 @@ export default function Home() {
               <span>Dúvidas frequentes</span>
             </a>
           </button>
+        </div>
+      </div>
+
+      <div className={styles.servicos}>
+        <span>Conheça nossos outros</span>
+        <h2>Serviços</h2>
+
+        <div className={styles.miniCards}>
+          <div className={styles.mural}>
+            <div className={styles.imagemMural}>
+              <Image src={mural} alt="imagem de um cadastro" />
+              <span>Mural de vagas</span>
+            </div>
+
+            <a className={styles.seta} href="#">
+              <Image src={seta} alt="seta verde apontando para a direita" />
+            </a>
+          </div>
+
+          <div className={styles.redes}>
+            <div className={styles.imagemRede}>
+              <Image src={rede} alt="imagem de pessoas se abraçando" />
+              <span>Rede de apoio</span>
+            </div>
+
+            <a className={styles.seta} href="#">
+              <Image src={seta} alt="seta verde apontando para a direita" />
+            </a>
+          </div>
+
+          <div className={styles.cadastro}>
+            <div className={styles.imagemCadastro}>
+              <Image src={cadastro} alt="imagem de um cadastro marcado" />
+              <span>Cadastro de empresas</span>
+            </div>
+
+            <a className={styles.seta} href="#">
+              <Image src={seta} alt="seta verde apontando para a direita" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
