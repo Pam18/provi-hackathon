@@ -200,3 +200,91 @@
     right: 5px;
     bottom: 3px;
 }
+
+.depoimentos {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 140px;
+}
+
+.pessoaTrans {
+    position: relative;
+    bottom: 450px;
+    left: 100px;
+}
+
+.depo {
+    width: 700px;
+
+    margin-top: 150px;
+}
+
+.depo h2 {
+    color: #202020;
+
+    font-family: Elsie Swash Caps;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.imagemDepo {
+    display: flex;
+    
+    gap: 30px;
+}
+
+.aspas {
+    color: #000000;
+
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 138px;
+}
+
+.imagemDepo p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    color: #202020;
+
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    opacity: 0.5;
+}
+
+.rodapeDepo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoDepo {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome, .periodo {
+    color: #202020;
+
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.periodo {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.passarDepo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100px;
+}
