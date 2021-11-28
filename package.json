@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/Pam18/provi-hackathon/issues"
   },
-  "homepage": "https://github.com/Pam18/provi-hackathon#readme"
+  "homepage": "https://github.com/Pam18/provi-hackathon#readme",
+  "dependencies": {
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  }
 }
