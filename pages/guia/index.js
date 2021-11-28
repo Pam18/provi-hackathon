@@ -86,7 +86,7 @@ export default function Guia() {
                 caixasCheckbox[Number(toggleId)].classList.value = "ok hidden";
             }
         }        
-    }, [toggleCheck]);
+    }, [toggleCheck, toggleId]);
 
     return (
         <div>
@@ -102,7 +102,7 @@ export default function Guia() {
             {
                 arrayInformacoes.map(item => {
                     return (
-                        <div className="passo">
+                        <div key={item.id} className="passo">
                             <div 
                                 id={item.id} 
                                 className="status" 

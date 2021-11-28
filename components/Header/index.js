@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Image from 'next/image';
 import logo from "../../public/assets/logo.svg";
 import manchaRoxaSuperior from "../../public/assets/mancha-roxa-superior.svg"
