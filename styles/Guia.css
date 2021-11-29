@@ -19,7 +19,7 @@
 .passo-texto h4 {
     color: #202020;
 
-    font-family: Elsie Swash Caps;
+    font-family: 'Elsie Swash Caps';
     font-weight: 900;
     font-size: 24px;
     line-height: 41px;
@@ -28,7 +28,7 @@
 .passo-texto span {
     color: #202020;
 
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;

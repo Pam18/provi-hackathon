@@ -1,13 +1,11 @@
 import Image from 'next/image';
-
-import Header from '../../components/Header';
+import { useEffect, useState } from 'react';
 import CallAction from '../../components/CallAction';
 import Footer from '../../components/Footer';
-
+import Header from '../../components/Header';
 import checkPoint from '../../public/assets/check.svg';
 import iconeOk from '../../public/assets/icone-ok.svg';
 
-import { useEffect, useState } from 'react';
 
 export default function Guia() {
     const [toggleCheck, setToggleCheck] = useState(false);
