@@ -1,7 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import simboloTrans from "../../public/assets/simboloTrans.svg";
 import manchaRoxaLateral from "../../public/assets/mancha-roxa-lateral.svg"
 import manchaVerdeLateral from "../../public/assets/mancha-verde-lateral.svg";
+
 
 export default function CallAction(props) {
     return (
@@ -18,7 +20,7 @@ export default function CallAction(props) {
                     props.botao
                     &&
                     <button className="botao">
-                        <a href="#">Iniciar cadastro</a>
+                        <Link href="#">Iniciar cadastro</Link>
                     </button>
                 }
                 {

@@ -176,23 +176,37 @@
 .depoimentos {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    padding-left: 5em;
 
     margin-top: 140px;
     height: 900px;
 }
 
+.mulherBandeira {
+    position: relative;
+}
+
+.depoimentos div:first-child {
+    margin-right: 5em;
+}
+
 .pessoaTrans {
     position: relative;
-    bottom: 450px;
-    left: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+.bandeiraTrans {
+    position: absolute;
+    bottom: 0;
+
+    transform: translate(-10%, -10%);
 }
 
 .depo {
     width: 820px;
-
-    margin-top: 150px;
-
-    margin-right: 100px;
 }
 
 .depo h2 {

@@ -122,7 +122,7 @@ export default function Home() {
       </div>
 
       <div id="depoimentos" className={styles.depoimentos}>
-        <div>
+        <div className={styles.mulherBandeira}>
           <span className={styles.bandeiraTrans}>
             <Image
               src={bandeiraTrans}
