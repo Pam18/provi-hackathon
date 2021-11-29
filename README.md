@@ -3,7 +3,7 @@
 
 Nome da aplicação: Transceder.
 Tipo de aplicação: Aplicação web.
-Equipe envolvida: Pamela Lima, Daniel Bicalho, Karyne Sayuri, Jualiana Prado e Bruna
+Equipe envolvida: Pamela Lima, Daniel Bicalho, Karyne Sayuri, Jualiana Prado e Bruna Martins Luccas.
 
 
 O aplicativo em questão foi desenvolvido nas linguagens HTML, CSS e JavaScript, fazendo uso das ferramentas React.js e Next.js.
