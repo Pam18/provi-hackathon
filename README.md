@@ -1,7 +1,7 @@
 # provi-hackathon
 # Repositório criado para hospedar o projeto mínimo viável (MVP), desenvolvido no hackathon da Provi.
 
-Nome da aplicação: Transceder.
+Nome da aplicação: Transcender.
 Tipo de aplicação: Aplicação web.
 Equipe envolvida: Pamela Lima, Daniel Bicalho, Karyne Sayuri, Jualiana Prado e Bruna Martins Luccas.
 

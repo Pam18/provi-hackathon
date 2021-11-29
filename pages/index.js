@@ -36,7 +36,7 @@ export default function Home() {
         botao={true}
         imagem={true}
       >
-        O portal Transceder nasceu com a missão de auxiliar pessoas trans a dar vários passos importantes na sua trajetória de vida, como a retificação do seu nome em cartório, ter o apoio de pessoas e empresas na sua qualificação profissional e educacional.<br />
+        O portal Transcender nasceu com a missão de auxiliar pessoas trans a dar vários passos importantes na sua trajetória de vida, como a retificação do seu nome em cartório, ter o apoio de pessoas e empresas na sua qualificação profissional e educacional.<br />
         O direito ao próprio nome caminha junto com a diminuição de algumas das violências sofridas por pessoas trans e não binárias e garantir esse direito dando apoio em cada etapa do processo é garantir a cidadania dessas pessoas e o senso de existência na sociedade.<br />
         Aqui você acessa um passo a passo sobre como retificar seu nome e gênero em sua documentação. Acompanha o status da sua solicitação, tem ajuda profissional para diversos temas e questões, um grupo de apoio e de vagas de emprego.
       </CallAction>

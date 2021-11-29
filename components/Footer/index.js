@@ -17,7 +17,7 @@ export default function Footer() {
                         <Image className="logo" src={logo} alt="Símbolo da transsexualidade, na cor preto. Que descrito, se trata de um círculo anexado a uma flecha apontada para o alto e para a direita, com outra flecha, que possui um corte horizontal, apontada para o alto e para a esquerda. E abaixo do círculo, está anexada uma cruz" />
 
                     </span>
-                    <h1>Transceder</h1>
+                    <h1>Transcender</h1>
                 </div>
 
                 <div className="contato">

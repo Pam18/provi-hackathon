@@ -14,7 +14,7 @@ export default function Guia() {
     const arrayInformacoes = [
         {
             id: 0,
-            novoTitulo: "1 - Começar separando os documentos:", 
+            novoTitulo: "1 - Começar separando os documentos:",
             novoTexto: "O primeiro passo para dar início à retificação do seu registro é reunir todos os documentos exigidos pelo Provimento nº 73/2018 do CNJ. Fizemos uma lista ao final deste guia com todos os documentos necessários."
         },
 
@@ -63,9 +63,9 @@ export default function Guia() {
         }
     ];
 
-    function handleChangeCheckVisibility(event) {  
-        
-        if(event.target.id === "") {
+    function handleChangeCheckVisibility(event) {
+
+        if (event.target.id === "") {
             return;
         } else {
             setToggleCheck(!toggleCheck);
@@ -77,13 +77,13 @@ export default function Guia() {
     useEffect(() => {
         const caixasCheckbox = document.querySelectorAll('.ok');
 
-        if(caixasCheckbox) {
+        if (caixasCheckbox) {
             if (toggleCheck) {
                 caixasCheckbox[Number(toggleId)].classList.value = "ok";
             } else {
                 caixasCheckbox[Number(toggleId)].classList.value = "ok hidden";
             }
-        }        
+        }
     }, [toggleCheck, toggleId]);
 
     return (
@@ -93,7 +93,7 @@ export default function Guia() {
                 subtitulo={false}
                 titulo="Guia de retificação do nome e/ou gênero"
                 botao={false}
-                texto="Este passo a passo foi elaborado por nós, da Transceder, para te ajudar a conseguir os documentos necessários para a Retificação de PRENOME e GÊNERO nos seus documentos."
+                texto="Este passo a passo foi elaborado por nós, da Transcender, para te ajudar a conseguir os documentos necessários para a Retificação de PRENOME e GÊNERO nos seus documentos."
                 imagem={false}
             />
 
@@ -101,36 +101,36 @@ export default function Guia() {
                 arrayInformacoes.map(item => {
                     return (
                         <div key={item.id} className="passo">
-                            <div 
-                                id={item.id} 
-                                className="status" 
+                            <div
+                                id={item.id}
+                                className="status"
                                 onClick={(e) => handleChangeCheckVisibility(e)}>
 
-                                <span 
-                                    id={item.id} 
+                                <span
+                                    id={item.id}
                                     className="check">
 
-                                    <Image 
-                                        id={item.id} 
-                                        src={checkPoint} 
-                                        alt="caixa de seleção para marcar o item executado" 
+                                    <Image
+                                        id={item.id}
+                                        src={checkPoint}
+                                        alt="caixa de seleção para marcar o item executado"
                                         width={80}
-                                        />
+                                    />
                                 </span>
 
-                                <span 
-                                    id={item.id} 
+                                <span
+                                    id={item.id}
                                     className="ok hidden">
-                                     
-                                     <Image 
-                                        id={item.id} 
-                                        src={iconeOk} 
-                                        alt="icone verde, para indicar que o item foi executado" 
+
+                                    <Image
+                                        id={item.id}
+                                        src={iconeOk}
+                                        alt="icone verde, para indicar que o item foi executado"
                                         width={40}
-                                        />
+                                    />
                                 </span>
                             </div>
-    
+
                             <div className="passo-texto">
                                 <h4>{item.novoTitulo}</h4>
                                 <span>{item.novoTexto}</span>
@@ -139,10 +139,10 @@ export default function Guia() {
                         </div>
                     )
                 })
-            }  
+            }
 
             <Footer />
 
         </div>
     )
-}   
+}
