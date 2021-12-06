@@ -1,5 +1,5 @@
 # provi-hackathon
-# Repositório criado para hospedar o projeto mínimo viável (MVP), desenvolvido no hackathon da Provi.
+# Repositório criado para hospedar o mínimo produto viável (MVP), desenvolvido no hackathon da Provi.
 
 Nome da aplicação: Transcender.
 Tipo de aplicação: Aplicação web.
